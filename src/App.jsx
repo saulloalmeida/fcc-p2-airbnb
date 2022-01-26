@@ -1,5 +1,3 @@
-import img1 from '../img/data-image.png'
-import img2 from '../img/data-image2.png'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import Card from './Card'
