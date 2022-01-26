@@ -11,15 +11,16 @@ export default function App() {
                 {data.map(item => {
                     return (
                         <Card
-                        image={`../images/${item.coverImg}`}
-                        rating={item.stats.rating}
-                        reviewCount={item.stats.reviewCount}
-                        country={"USA"}
-                        title={item.title}
-                        price={item.price}
-                        location={item.location}
-                        key={item.id}
-                        openSpots={item.openSpots}
+                        {...item}
+                        // image={`../images/${item.coverImg}`}
+                        // rating={item.stats.rating}
+                        // reviewCount={item.stats.reviewCount}
+                        // country={"USA"}
+                        // title={item.title}
+                        // price={item.price}
+                        // location={item.location}
+                        // key={item.id}
+                        // openSpots={item.openSpots}
                     />
                     )
                 })}
